@@ -1,0 +1,7 @@
+{
+  "name": "com.cobra.king",
+  "version": "1.0.0",
+  "displayName": "KingCobra",
+  "description": "This is an example package",
+  "dependencies": {  }
+}
