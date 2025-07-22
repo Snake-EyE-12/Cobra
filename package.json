@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "displayName": "KingCobra",
   "dependencies": {
-    "com.dbrizov.naughtyattributes": "^2.1.4"
+    "com.dbrizov.naughtyattributes": "2.1.4"
   }
 }
