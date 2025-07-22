@@ -2,5 +2,7 @@
   "name": "com.cobra.king",
   "version": "1.0.0",
   "displayName": "KingCobra",
-  "dependencies": {}
+  "dependencies": {
+    "com.dbrizov.naughtyattributes": "^2.1.4"
+  }
 }

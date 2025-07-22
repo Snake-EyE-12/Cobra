@@ -28,7 +28,7 @@ namespace Cobra.DesignPattern
                         {
                             Debug.LogError("Assets Singleton: Unable to load resource [" + assetName + "]!" +
                                            " Asset inaccessible! Make sure asset is within a 'Resources' folder " +
-                                           "and named: " + assetName);
+                                           "and named: " + assetName + " | " + e.Message);
                         }
                     }
 #endif
