@@ -1,0 +1,121 @@
+🔁 Navigation & Flow
+
+    Page Switching / Tabbed Navigation
+
+    Back Navigation / Menu Stack Tracking
+
+    Main Menu Entry Points (Start, Continue, Quit, etc.)
+
+    Contextual Submenus (e.g., Pause vs. Main Menu)
+
+    Confirmation Dialogs (Yes/No prompts)
+
+    Hotkeys / Input Mapping for Navigation
+
+    Breadcrumb / Current Menu Indicator
+
+    Shortcut Access / Quick Resume to Last Menu
+
+🧩 UI Elements / Structures
+
+    Modular Panels or Screens (one per menu page)
+
+    Toggle Groups (e.g., audio, resolution options)
+
+    Dropdowns / Sliders / Toggles / Buttons
+
+    Tab System for organizing options
+
+    Modal Windows (confirmations, popups)
+
+    Scrollable Lists (e.g., save files, settings list)
+
+    Tooltip Display / Hover Info Box
+
+🔧 Settings Handling
+
+    Audio Volume Sliders (Master, Music, SFX)
+
+    Resolution & Display Mode Selectors
+
+    Keybinding Remapping Interface
+
+    Control Sensitivity Sliders
+
+    Subtitles, Accessibility Toggles
+
+    Save / Apply / Reset Settings Buttons
+
+    Persistent Settings Save (PlayerPrefs or File I/O)
+
+🔄 Save & Load
+
+    Save Slot Selection UI
+
+    Create / Delete Save Slots
+
+    Thumbnail & Metadata Display for Saves
+
+    Auto-Save Indicators
+
+    Manual Save / Load Buttons
+
+    Error Handling for Broken or Missing Saves
+
+🎮 Gameplay Menus
+
+    Pause Menu with Resume / Options / Quit
+
+    In-Game Settings Access
+
+    Radial Menu or Quick Inventory (if needed)
+
+    HUD-integrated Menus (optional, for diegetic UIs)
+
+🧠 State & Flow Management
+
+    Menu State Machine (Open/Close/Transition states)
+
+    Event-Driven UI Handling (UnityEvents or C# events)
+
+    Animator or Tween-based Transitions
+
+    Prevent Input Spam / Debouncing
+
+    Disable Menu While Game is Running (and vice versa)
+
+🧪 Quality of Life & Feedback
+
+    Highlight on Selected Buttons
+
+    Navigation Sounds / Audio Feedback
+
+    Loading Spinners or Fade Transitions
+
+    Accessibility Settings (e.g., colorblind, large text)
+
+    "Are You Sure?" Confirmation for Quitting or Deleting
+
+    Tooltip or Context Info for Settings
+
+    Error Popups for Invalid Actions
+
+🌐 (Optional) Multiplayer or Online Features
+
+    Multiplayer Lobby Menu
+
+    Invite / Join Friends UI
+
+    Online Status Indicators
+
+    Privacy / Matchmaking Settings
+
+🔒 Extra Utilities
+
+    Version Display
+
+    Credits Menu
+
+    Legal / Privacy Links
+
+    Reset to Default Button
