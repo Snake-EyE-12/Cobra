@@ -56,7 +56,6 @@ namespace Cobra.GUI
 
             public void Undo()
             {
-                Debug.Log("Going to: " + oldPage.gameObject.name);
                 pageChanger?.Invoke(oldPage);
             }
         }
@@ -79,6 +78,12 @@ namespace Cobra.GUI
         {
             JumpToPage(null);
             menuSequencer.Clear();
+        }
+
+        public void Reset()
+        {
+            initialPageMenu = null;
+            Close();
         }
 
         private void OpenInitialMenuPiece()

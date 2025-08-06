@@ -6,6 +6,12 @@ namespace Cobra.GUI
     public class PageMenu : BaseMenuPiece
     {
         [field:SerializeField, Min(0), Tooltip("Highest Priority is Initial Page")] public int Priority { get; private set; }
+
+        public void SetPriority(int priority)
+        {
+            Priority = priority;
+            parentMenuController.Reset();
+        }
         
         public override void Initialize(MenuControllerDefault controller)
         {
