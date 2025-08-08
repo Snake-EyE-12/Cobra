@@ -9,18 +9,15 @@ using UnityEngine.UI;
 
 namespace Cobra
 { 
-    public class ModifySettings : MonoBehaviour
+    public class SettingsController : MonoBehaviour
     {
         public AudioMixer mixer;
 
         public TMP_Dropdown resolutionDropdown;
 
         public SettingsAsset settings;
-
-        public Toggle mouseModeMiniGame;
-        public Toggle mouseModeBossGame;
-
-        public bool only16by9 = false;
+         
+        public bool only16By9 = false;
         static List<Resolution> res;
         static List<string> options = new List<string>();
 
@@ -48,7 +45,7 @@ namespace Cobra
             {
                 string check = res[i].width + "x" + res[i].height;
                 float aspect = (float)res[i].width / res[i].height;
-                if (only16by9 && (check == prev || Mathf.Abs(aspect - (16f / 9f)) > 0.01f)) continue;
+                if (only16By9 && (check == prev || Mathf.Abs(aspect - (16f / 9f)) > 0.01f)) continue;
 
                 string option = check;
                 prev = check;
@@ -107,9 +104,9 @@ namespace Cobra
 
         public void SaveSettings()
         {
-            mixer.GetFloat("MasterVol", out settings.masterVolume);
-            mixer.GetFloat("MusicVol", out settings.musicVolume);
-            mixer.GetFloat("SFXVol", out settings.sfxVolume);
+            mixer.GetFloat("MasterVolume", out settings.masterVolume);
+            mixer.GetFloat("MusicVolume", out settings.musicVolume);
+            mixer.GetFloat("SFXVolume", out settings.sfxVolume);
             settings.isFullScreen = Screen.fullScreen;
             settings.screenResolution = resolutionDropdown.value;
         }
@@ -133,6 +130,11 @@ namespace Cobra
 
             //load in screen resolution
             resolutionDropdown.value = settings.screenResolution;
+        }
+
+        public void OnBackPressed()
+        {
+            this.gameObject.SetActive(false);
         }
     }
 }

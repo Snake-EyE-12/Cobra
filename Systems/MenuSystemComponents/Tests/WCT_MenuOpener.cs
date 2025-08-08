@@ -8,7 +8,6 @@ namespace Cobra
     public class WCT_MenuOpener : MonoBehaviour
     {
         [SerializeField] private MenuControllerDefault menu;
-        [SerializeField] private PauseController pause;
         private bool state;
 
         private void Update()
@@ -19,12 +18,10 @@ namespace Cobra
                 if (state)
                 {
                     menu.Open();
-                    pause.Pause();
                 }
                 else
                 {
                     menu.Close();
-                    pause.Resume();
                 }
             }
         }

@@ -65,6 +65,7 @@ namespace Cobra.Utilities
 
             public float GetDuration()
             {
+                if (!IsPaused) return 0;
                 return Time.unscaledTime - timeOfGamePause;
             }
         }
