@@ -1,4 +1,4 @@
-<strong>Cobra</strong>
+<strong><title>Cobra</title></strong>
 
 Collection of Unity Utilities
 
