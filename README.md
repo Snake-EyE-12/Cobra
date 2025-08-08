@@ -1,11 +1,10 @@
-Cobra
+<strong>Cobra</strong>
 
 Collection of Unity Utilities
-Table of Contents
+
+<details> <summary><strong>Table of Contents</strong></summary>
 
     Overview
-
-    Installation
 
     Systems
 
@@ -20,84 +19,73 @@ Table of Contents
     Hotkey Reference
 
     License
+</details>
 
-Overview
+<strong>Overview</strong>
 
-Cobra is a modular collection of Unity systems, tools, and utilities aimed at streamlining common development tasks. Each component is designed to work independently, with minimal setup and clear extension points.
-Installation
+Cobra is a modular collection of Unity systems, tools, and utilities aimed at streamlining common game development tasks. Each component is designed to work independently, with minimal setup and clear extension points.
 
-Option 1: Git URL (Unity Package Manager)
-Add the following to your manifest.json:
-
-"com.yourcompany.cobra": "https://github.com/yourcompany/Cobra.git"
-
-Option 2: Asset Folder
-Download or clone this repository into your project's Assets/ folder.
-Systems
-
-Each system is self-contained and can be used independently.
 <details> <summary><strong>Audio</strong></summary>
 
 Simplifies sound playback and volume control.
 
-    One-shot and looping audio playback
+    Different Sound Data Types
+    Simple | Advanced | Complex
 
-    3D spatial support
+    Music Manager w/ Playlists
 
-    Global volume and mute controls
+    Sound Manager w/ Object Pooled Emitters
 
 </details> <details> <summary><strong>Command</strong></summary>
 
 Implements the Command Pattern for queued or reversible logic.
 
-    Command queue
+    Command Execution
 
-    Undo/redo functionality
-
-    Batch execution
+    Undo/Redo Functionality
 
 </details> <details> <summary><strong>Event</strong></summary>
 
-Lightweight event broadcasting system.
+Extremely robust versatile event broadcasting system.
 
-    Custom event definitions
+    Different Event Types
+    Parameterless | Strongly Typed | Generic
 
-    Global or local dispatching
-
-    Decouples logic across systems
+    Static Bus Station
 
 </details> <details> <summary><strong>Illion</strong></summary>
 
-(Description of what this system does)
+Massive number container and display system.
+
+    NOT YET IMPLEMENTED
+
 </details> <details> <summary><strong>Lifetime</strong></summary>
 
 Controls lifespan of objects.
 
-    Auto-destroy after delay
-
-    Conditional cleanup
-
-    Pool-compatible
+    Different Lifetime Types
+    Standard | Event | Pool
 
 </details> <details> <summary><strong>Menu</strong></summary>
 
 Handles menu navigation logic.
 
-    Page transitions
+    Page Transitions
 
-    Stack-based flow
+    Backtracking
 
-    Input blocking
+    Save Functionality
+
+    Multiple Components
+    Fullscreen | Graphics | Keybinding | Resolution | Volume
 
 </details> <details> <summary><strong>Object Pool</strong></summary>
 
 Reusable object management.
 
-    Supports MonoBehaviours and prefabs
+    Simple Summoning
 
-    Return-to-pool logic
-
-    Lazy initialization
+    Return-to-pool Logic Interfacing
 
 </details> <details> <summary><strong>Optional</strong></summary>
 
@@ -105,45 +93,47 @@ Custom Optional type for value/missing state handling.
 
     Unity-friendly
 
-    Null-safe logic paths
+    Null-safe Logic
 
 </details> <details> <summary><strong>Scene Transition</strong></summary>
 
 Handles loading and fading between scenes.
 
-    Async support
+    Scene Arrival
 
-    Screen fade
+    Scene Departure
 
-    Event hooks
+    Custom Scene Transitioning Override Capabilities
 
 </details> <details> <summary><strong>Singleton</strong></summary>
 
 Base class and helpers for single-instance components.
 
-    Auto-instantiation
+    Auto-Instantiation
 
-    Persistent or scene-limited
+    Persistent or Scene-limited
 
-    Thread-safe base
+    Editor Error Calls
 
 </details> <details> <summary><strong>Timers</strong></summary>
 
 Timers and delays.
 
-    One-shot and repeating timers
+    Multiple Types
+    Countdown | Frequency | Stopwatch
 
-    Callback support
+    Alarm Notification
 
-    Time-scale aware
+    Auto Updating
 
 </details> <details> <summary><strong>Vector Casts</strong></summary>
 
-Helper functions for directional physics.
+Helper extensions for easy vector to vector type casting
 
-    Cast along direction vectors
+    3D - 2D + vis-a-versa
+    Int - Float + vis-a-versa
 
-    Custom angle and distance options
+    Math Functionality
 
 </details>
 Materials

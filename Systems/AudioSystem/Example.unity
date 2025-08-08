@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 878269845}
   - component: {fileID: 878269844}
   - component: {fileID: 878269843}
+  - component: {fileID: 878269847}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -461,6 +462,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &878269847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878269842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5bdb47ee4323a4aa14ad07c635de83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  soundEmitterPrefab: {fileID: 0}
+  collectionCheck: 1
+  defaultCapacity: 10
+  maxPoolSize: 100
+  maxSoundInstances: 30
 --- !u!1 &934683730
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: b99c9fb5a3c482f499e848f85c3c6cce, type: 2}
   groupName: Master
+  defaultValue: 1
   slider: {fileID: 1376681424}
 --- !u!114 &1376681424
 MonoBehaviour:
