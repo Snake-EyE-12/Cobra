@@ -1,4 +1,4 @@
-<strong style="font-size: 32px;">Cobra</strong>
+<strong style="font-size: 132px;">Cobra</strong>
 
 Collection of Unity Utilities
 
