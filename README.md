@@ -136,12 +136,13 @@ Helper extensions for easy vector to vector type casting
     Math Functionality
 
 </details>
+
 Materials
 
     Full Friction
     No Friction
 
-Editor Tools
+<strong>Editor Tools</strong>
 
     Initial File Creation
 
@@ -149,7 +150,7 @@ Editor Tools
 
     Standardizes feature/module setup.
 
-Hotkeys
+<strong>Hotkeys</strong>
 
     Maximize Play	        Alt + P
     Inspector Debug Mode	Alt + D
@@ -183,7 +184,7 @@ Console Clearing
 
     Editor-only utility to clear Unity console from code
 
-Info
+<strong>Info</strong>
 
     Unity hotkey symbols:
         %	Ctrl
@@ -191,6 +192,6 @@ Info
         &	Alt
 
 
-License
+<strong>License</strong>
 
 MIT License. Free to use, modify, and distribute.
