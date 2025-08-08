@@ -137,48 +137,43 @@ Helper extensions for easy vector to vector type casting
 
 </details>
 Materials
-Name	Description
-Full Friction	High drag, prevents sliding
-No Friction	Low drag, useful for smooth motion
-Tools
-Global Asset
 
-    Easily create and access global ScriptableObject references.
-
-    Useful for managers, settings, or shared runtime state.
+    Full Friction
+    No Friction
 
 Editor Tools
-Initial File Creation
+
+    Initial File Creation
 
     Template-based script and folder generation.
 
     Standardizes feature/module setup.
 
 Hotkeys
-Action	Shortcut
-Maximize Play	Alt + P
-Inspector Debug Mode	Alt + D
-Inspector Lock	Shift + Q
-Utilities
+
+    Maximize Play	        Alt + P
+    Inspector Debug Mode	Alt + D
+    Inspector Lock	        Shift + Q
+
+<strong>Utilities</strong>
+
 Math Functions
 
-    Decibel Conversion: 20 * log10(value)
+    Decibel Conversion
 
-    Chance Evaluation: Chance(percent) returns true at given probability
+    Chance Evaluation
 
-    LayerMask Tools: Bitmask utility helpers
+    LayerMask Tools
 
 Extensions
 
-    LineRenderer: auto-path generation, chaining, etc.
-
-    GameObject: find/toggle/set-active helpers
+    LineRenderer Drawing
 
 Game Basics
 
-    Pause/resume logic
+    Auto Pause/Resume
 
-    Application quit shortcut
+    Quit Functionality
 
 Curve
 
@@ -188,13 +183,14 @@ Console Clearing
 
     Editor-only utility to clear Unity console from code
 
-Hotkey Reference
+Info
 
-Unity hotkey symbols:
-Symbol	Meaning
-%	Ctrl
-#	Shift
-&	Alt
+    Unity hotkey symbols:
+        %	Ctrl
+        #	Shift
+        &	Alt
+
+
 License
 
 MIT License. Free to use, modify, and distribute.
