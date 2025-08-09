@@ -22,5 +22,9 @@ namespace Cobra.Utilities
             result = Evaluate(x);
             return true;
         }
+
+        
+        public Vector2 Y => new Vector2(yMin, yMax);
+        public Vector2 X => new Vector2(xMin, xMax);
     }
 }
