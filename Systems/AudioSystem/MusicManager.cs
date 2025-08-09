@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 
 namespace Cobra.Audio {
     [RequireComponent(typeof(MusicManager))]
-    public class MusicManager : Singleton<MonoBehaviour> {
+    public class MusicManager : Singleton<MusicManager> {
         const float crossFadeTime = 1.0f;
         float fading;
         AudioSource current;
