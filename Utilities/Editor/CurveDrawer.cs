@@ -1,3 +1,5 @@
+#if  UNITY_EDITOR
+   
 using UnityEngine;
 using UnityEditor;
 using Cobra.Utilities;
@@ -66,3 +68,6 @@ namespace Cobra.CustomEditor
         }
     }
 }
+
+
+#endif
