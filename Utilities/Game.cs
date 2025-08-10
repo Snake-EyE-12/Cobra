@@ -11,7 +11,7 @@ namespace Cobra.Utilities
 
         public static void Pause() => pauseControl.Pause();
         public static void Resume() => pauseControl.Resume();
-        public static void IsPaused() => pauseControl.IsPaused();
+        public static bool IsPaused() => pauseControl.IsPaused();
         public static void LoadPauseControls(InputActionAsset inputActionAsset, string[] pausableActionMapNames) => pauseControl.SetPausableActionMaps(inputActionAsset, pausableActionMapNames);
         public static float GetPausedDuration() => pauseControl.GetDuration();
         private class PauseControl
