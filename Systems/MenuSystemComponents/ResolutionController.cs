@@ -22,7 +22,7 @@ namespace Cobra.GUI
         {
             if(dropDown == null) dropDown = GetComponent<TMP_Dropdown>();
             PrepareResolutions();
-            LoadDefault();
+            LoadFromSave();
         }
 
         private void PrepareResolutions()
