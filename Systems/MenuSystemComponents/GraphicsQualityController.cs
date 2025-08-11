@@ -17,7 +17,7 @@ namespace Cobra.GUI
         private void Awake()
         {
             if(dropDown == null) dropDown = GetComponent<TMP_Dropdown>();
-            LoadDefault();
+            LoadFromSave();
         }
 
         public void SetQuality(int level)
