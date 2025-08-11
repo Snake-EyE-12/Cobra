@@ -43,7 +43,7 @@ namespace Cobra.Audio
         private void Awake()
         {
             if(slider == null) slider = GetComponent<Slider>();
-            LoadDefault();
+            LoadFromSave();
         }
 
 
