@@ -16,7 +16,7 @@ namespace Cobra.GUI
         private void Awake()
         {
             if(checkbox == null) checkbox = GetComponent<Toggle>();
-            LoadDefault();
+            LoadFromSave();
         }
         
         public void SetFullscreen(bool full)
