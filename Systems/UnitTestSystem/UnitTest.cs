@@ -13,7 +13,9 @@ namespace Cobra.UnitTesting
         [Button]
         private void RunTests()
         {
+        #if UNITY_EDITOR
             ConsoleUtils.ClearLog();
+        #endif
             Type currentType = this.GetType();
             Assembly assembly = currentType.Assembly;
             var methods = assembly.GetTypes()
