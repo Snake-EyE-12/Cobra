@@ -11,6 +11,7 @@ namespace Cobra.Utilities.Tools
         [MenuItem("Tools/Setup/Create Folders")]
         public static void CreateDefaultFolders() {
             Directory.CreateDirectory(Path.Combine(Application.dataPath, rootProject));
+            Dir(rootProject, "_Game", "_View");
             AssetDatabase.Refresh();
         }
         public static void Dir(string root, params string[] dir) {
