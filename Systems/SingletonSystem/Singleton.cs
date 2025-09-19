@@ -12,6 +12,7 @@ namespace Cobra.DesignPattern
 
         protected virtual void OnAwake()
         {
+            
         }
 
         private void Awake()
