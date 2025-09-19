@@ -10,9 +10,14 @@ namespace Cobra.DesignPattern
         [SerializeField] private bool dontDestroyOnLoad;
         protected static T instance = null;
 
+        protected virtual void OnAwake()
+        {
+        }
+
         private void Awake()
         {
             if(dontDestroyOnLoad) DontDestroyOnLoad(this);
+            OnAwake();
         }
 
         public static T Instance
